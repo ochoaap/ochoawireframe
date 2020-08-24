@@ -1,0 +1,16 @@
+head> title{text-align:center;
+}
+body{background-color: blue
+}
+
+nav > ul > li {display:inline;
+    border:solid 3px red;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+#hero {
+    width:500px;
+    text-align: center;
+}
+section > P {font-family: fantasy;}
