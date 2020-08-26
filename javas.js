@@ -12,6 +12,7 @@ var suprhero;
     alert("Oh, they're really cool! Check out mine!")
 }
 
+
 askuserName();
 
 favorite()
