@@ -1,15 +1,16 @@
 main > section > h1{text-align: center}
-body{background-color: blue
+body{background-color: bisque
 }
 
-nav > ul > li {display:inline;
-    border:solid 3px red;
+nav>ul>li {display:inline;
     text-align: center;
     padding: 5px;
-    margin: 125px;
+    margin: 135px;
+    font-family: cursive;
 }
+
 #hero {
     width:1500px;
-    height:500px;
+    height:500px;}
     
-section > P {font-family: fantasy;}
+section>p> {font-family: fantasy;}
