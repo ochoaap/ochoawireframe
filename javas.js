@@ -4,9 +4,16 @@ document.write('<h2>' + 'Hiya, ' + userName + '</h2>');}
 
 
 
-confirm("I want to know about your favorite SuperHero!")
+var likesuperhero;
+    likesuperhero=prompt("Do you like Super Heroes?");
+    while(likesuperhero === 'no'){
+        likesuperhero=prompt("Do you like Super Heroes?");
 
-function favorite(){
+    }
+
+
+
+function favorite(){ 
 var suprhero;
     superhero=prompt("Who is your favorite super hero?");
     alert("Oh, " + superhero + ", they're really cool! Check out mine!")
@@ -14,6 +21,26 @@ var suprhero;
 
 
 
-askuserName();
 
-favorite()
+function guessaumber(){
+    var answer = 11;
+    for(var i = 0; i < 10; i = 1 + 1){
+        var guessanumber=prompt("Guess a number between 1 and 15");
+        if(parseInt(guessanumber) === answer){
+            alert("You may enter!")
+            break;
+        }
+
+        else{
+            alert("Nah, brah, try again!")
+        }
+    
+
+
+
+
+
+
+askuserName();
+favorite();
+guessanumber();
