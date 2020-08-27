@@ -9,8 +9,9 @@ confirm("I want to know about your favorite SuperHero!")
 function favorite(){
 var suprhero;
     superhero=prompt("Who is your favorite super hero?");
-    alert("Oh, they're really cool! Check out mine!")
+    alert("Oh, " + superhero + ", they're really cool! Check out mine!")
 }
+
 
 
 askuserName();

@@ -8,6 +8,9 @@ nav>ul>li {display:inline;
     margin: 135px;
     font-family: cursive;
 }
+h2>{
+    margin:135px;
+}
 
 #hero {
     width:1500px;
