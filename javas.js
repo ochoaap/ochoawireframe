@@ -20,11 +20,9 @@ var suprhero;
 }
 
 
-
-
-function guessaumber(){
+function guessaNumber(){
     var answer = 11;
-    for(var i = 0; i < 10; i = 1 + 1){
+    for(var i = 0; i < 10; i = i + 1){
         var guessanumber=prompt("Guess a number between 1 and 15");
         if(parseInt(guessanumber) === answer){
             alert("You may enter!")
@@ -32,8 +30,10 @@ function guessaumber(){
         }
 
         else{
-            alert("Nah, brah, try again!")
+            alert("Nope, try again!")
         }
+    }
+}
     
 
 
@@ -43,4 +43,4 @@ function guessaumber(){
 
 askuserName();
 favorite();
-guessanumber();
+guessaNumber();
