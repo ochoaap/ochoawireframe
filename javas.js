@@ -44,3 +44,4 @@ function guessaNumber(){
 askuserName();
 favorite();
 guessaNumber();
+
